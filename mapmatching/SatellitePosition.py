@@ -18,10 +18,10 @@ satellite_table_z = pandas.DataFrame(columns=['date-time','PG01','PG02','PG03','
                                             'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG20','PG21','PG22','PG23',
                                             'PG24','PG25','PG26','PG27','PG28','PG29','PG30','PG31','PG32'])
 
-def beijing_time_to_gps_week(timestamp):
+def uk_time_to_gps_week(timestamp):
     global gps_time
-    beijing_time = datetime.datetime.strptime(timestamp,"%Y-%m-%d,%H:%M:%S")
-    utc_time = beijing_time - datetime.timedelta(hours=8)
+    utc_time = datetime.datetime.strptime(timestamp,"%Y%m%d%H%M%S")
+    # utc_time = uk_time - datetime.timedelta(hours=8)
     gps_week = utc_time - gps_time
     week = int(gps_week.days/7)
     day = gps_week.days % 7
@@ -108,22 +108,22 @@ def lagrangian_intepolation(gps_time, order):
 
 
 
-timestamp = beijing_time_to_gps_week('2008-10-20,11:45:00')
+# timestamp = uk_time_to_gps_week('20210401181309')
 # print timestamp
-read_igs_files(timestamp, timestamp)
-
-########################### verifying the accuracy ######################
-order3 = lagrangian_intepolation(timestamp,4)
-order4 = lagrangian_intepolation(timestamp,5)
-order5 = lagrangian_intepolation(timestamp,6)
-order6 = lagrangian_intepolation(timestamp,7)
-order7 = lagrangian_intepolation(timestamp,8)
-order8 = lagrangian_intepolation(timestamp,9)
-order9 = lagrangian_intepolation(timestamp,10)
-standardx = satellite_table_x.loc['15021-13500'].values.reshape(-1,1).astype(float)
-standardy = satellite_table_y.loc['15021-13500'].values.reshape(-1,1).astype(float)
-sandardz = satellite_table_z.loc['15021-13500'].values.reshape(-1,1).astype(float)
-# print order3[1:,0].reshape(-1,1), standardx[1:]
-cut_number = lambda x: float(('%.6f'%x)[-9:])
-plt.plot(map(cut_number,order8[1:,0]), map(cut_number,standardx[1:]),'ro')
-plt.show()
+# read_igs_files(timestamp, timestamp)
+#
+# ########################### verifying the accuracy ######################
+# order3 = lagrangian_intepolation(timestamp,4)
+# order4 = lagrangian_intepolation(timestamp,5)
+# order5 = lagrangian_intepolation(timestamp,6)
+# order6 = lagrangian_intepolation(timestamp,7)
+# order7 = lagrangian_intepolation(timestamp,8)
+# order8 = lagrangian_intepolation(timestamp,9)
+# order9 = lagrangian_intepolation(timestamp,10)
+# standardx = satellite_table_x.loc['15021-13500'].values.reshape(-1,1).astype(float)
+# standardy = satellite_table_y.loc['15021-13500'].values.reshape(-1,1).astype(float)
+# sandardz = satellite_table_z.loc['15021-13500'].values.reshape(-1,1).astype(float)
+# # print order3[1:,0].reshape(-1,1), standardx[1:]
+# cut_number = lambda x: float(('%.6f'%x)[-9:])
+# plt.plot(map(cut_number,order8[1:,0]), map(cut_number,standardx[1:]),'ro')
+# plt.show()

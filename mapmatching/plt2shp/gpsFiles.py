@@ -63,8 +63,8 @@ def getData(inFilename):
 # Returns: none
 #################################################################
 def createShapefile(gp, aData, sys):
-    featureType = sys[3]                # POLYGON, POLYLINE, POINT
-    outFilename = sys[2]                # output file name
+    featureType = sys[2]                # POLYGON, POLYLINE, POINT
+    outFilename = sys[1]                # output file name
     featureType = featureType.upper()   # convert to uppercase
     numFeatures = len(aData)            # number of features
 

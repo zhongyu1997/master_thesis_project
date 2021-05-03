@@ -1,7 +1,7 @@
 import numpy as np
 import math
 
-a = 6378137.0
+a = 6378137.0 # meters
 b = 6356752.31424518
 
 ### psudeorange_and_satellite_positions should be a n*4 matrix.
@@ -43,7 +43,7 @@ def absolute_positioning(psudeorange_and_satellite_positions):
 
 
 
-def longlat_to_earthfixed(long, lat, height):
+def longlat_to_earthfixed((long, lat, height)):
     global a,b
     E = (a * a - b * b) / (a * a)
     COSLAT = math.cos(lat * math.pi / 180)
@@ -55,10 +55,10 @@ def longlat_to_earthfixed(long, lat, height):
     X = NH * COSLAT * COSLONG
     Y = NH * COSLAT * SINLONG
     Z = (b * b * N / (a * a) + height) * SINLAT
-    return np.array([X,Y,Z])
+    return (X,Y,Z)
 
 
-def earthfixed_to_longlat(x, y, z):
+def earthfixed_to_longlat((x, y, z)):
     global a,b
     c = math.sqrt((a * a - b * b) / (a * a))
     d = math.sqrt((a * a - b * b) / (b * b))
@@ -71,29 +71,43 @@ def earthfixed_to_longlat(x, y, z):
     alti = (p / math.cos(lat)) - N
     long = long * 180.0 / math.pi
     lat = lat * 180.0 / math.pi
-    return np.array([long,lat,alti])
+    return (long,lat,alti)
 
 
+def building_to_earthfixed(building_info):
+    processed_top = map(longlat_to_earthfixed, building_info['nodes_top'])
+    building_info['processed_top'] = processed_top
+    processed_bottom = map(longlat_to_earthfixed, building_info['nodes_bottom'])
+    building_info['processed_bottom'] = processed_bottom
 
-import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-data = [[173.205,100.02,-99.998,99.9876],[173.2051,100.10,-100.10,-100.06],[173.21,100.10,99.91,100.0213],[200.41,200.01,0.02,200.01]]
-result = absolute_positioning(data)
-# three dimensional
-x = [x[1] for x in data]
-y = [y[2] for y in data]
-z = [z[3] for z in data]
 
-fig = plt.figure()
-ax = Axes3D(fig)
-ax.scatter(x, y, z, c = 'b', label = 'Satellite positions')
-ax.scatter(result[0], result[1], result[2],c = 'r', label = 'result')
-ax.scatter(200,0,0,c = 'g', label = 'proposed result')
+# only used in test examples
+def building_to_WGS84(building_info):
+    top = map(earthfixed_to_longlat, building_info['processed_top'])
+    building_info['nodes_top'] = top
+    bottom = map(earthfixed_to_longlat, building_info['processed_bottom'])
+    building_info['nodes_bottom'] = bottom
 
-ax.set_zlabel('Z', fontdict={'size': 15, 'color': 'red'})
-ax.set_ylabel('Y', fontdict={'size': 15, 'color': 'red'})
-ax.set_xlabel('X', fontdict={'size': 15, 'color': 'red'})
-plt.show()
+
+# import matplotlib.pyplot as plt
+# from mpl_toolkits.mplot3d import Axes3D
+# data = [[173.205,100.02,-99.998,99.9876],[173.2051,100.10,-100.10,-100.06],[173.21,100.10,99.91,100.0213],[200.41,200.01,0.02,200.01]]
+# result = absolute_positioning(data)
+# # three dimensional
+# x = [x[1] for x in data]
+# y = [y[2] for y in data]
+# z = [z[3] for z in data]
+#
+# fig = plt.figure()
+# ax = Axes3D(fig)
+# ax.scatter(x, y, z, c = 'b', label = 'Satellite positions')
+# ax.scatter(result[0], result[1], result[2],c = 'r', label = 'result')
+# ax.scatter(200,0,0,c = 'g', label = 'proposed result')
+#
+# ax.set_zlabel('Z', fontdict={'size': 15, 'color': 'red'})
+# ax.set_ylabel('Y', fontdict={'size': 15, 'color': 'red'})
+# ax.set_xlabel('X', fontdict={'size': 15, 'color': 'red'})
+# plt.show()
 
 # print longlat_to_earthfixed(116,40,0)
 # print earthfixed_to_longlat(-2144821.8415475,4397536.46122802,4077985.57220038)
