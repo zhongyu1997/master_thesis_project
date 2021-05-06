@@ -1,8 +1,8 @@
 import numpy as np
 import math
 
-a = 6378137.0 # meters
-b = 6356752.31424518
+a = 6378.1370 # meters
+b = 6356.75231424518
 
 ### psudeorange_and_satellite_positions should be a n*4 matrix.
 ### The first coloumn should be the hypothesized psudeorange.
@@ -65,14 +65,15 @@ def earthfixed_to_longlat((x, y, z)):
     p = math.sqrt((x * x) + (y * y))
     q = math.atan2((z * a), (p * b))
     long = math.atan2(y, x)
-    lat = math.atan2((z + (d * d) * b * math.pow(math.sin(q), 3)),
-                     (p - (c * c) * a * math.pow(math.cos(q), 3)))
+    lat = math.atan((z + (d * d) * b * math.pow(math.sin(q), 3))/(p - (c * c) * a * math.pow(math.cos(q), 3)))
     N = a / math.sqrt(1 - ((c * c) * math.pow(math.sin(lat), 2)))
     alti = (p / math.cos(lat)) - N
     long = long * 180.0 / math.pi
     lat = lat * 180.0 / math.pi
     return (long,lat,alti)
 
+def buildings_to_earthfixed(buildings_info):
+    map(building_to_earthfixed, buildings_info)
 
 def building_to_earthfixed(building_info):
     processed_top = map(longlat_to_earthfixed, building_info['nodes_top'])

@@ -27,24 +27,35 @@ def get_coordinate_by_lonlat(lon, lat):
 def get_DSM_height(nodelist):
     global im_DSM
     # print(im.format, im.size, im.mode)
-    new_node_list = []
-    final_height = 0
-    for (lon,lat) in nodelist:
-        height = im_DSM.getpixel(get_coordinate_by_lonlat(lon,lat))
-        if final_height < height: final_height = height
-        # print (lon, lat, height)
-    for (lon,lat) in nodelist:
-        new_node_list.append((lon, lat, final_height+50))
-    return new_node_list
+    if isinstance(nodelist,list):
+        new_node_list = []
+        final_height = 0
+        for (lon,lat) in nodelist:
+            height = im_DSM.getpixel(get_coordinate_by_lonlat(lon,lat))
+            if final_height < height: final_height = height
+            # print (lon, lat, height)
+        for (lon,lat) in nodelist:
+            new_node_list.append((lon, lat, (final_height+50)*0.001))
+        return new_node_list
+    elif isinstance(nodelist, tuple):
+        height = im_DSM.getpixel(get_coordinate_by_lonlat(nodelist[0], nodelist[1]))
+        return (nodelist[0],nodelist[1], (height+50)*0.001)
 
 def get_DTM_height(nodelist):
     global im_DTM
     # print(im.format, im.size, im.mode)
-    new_node_list = []
-    for (lon,lat) in nodelist:
-        height = im_DTM.getpixel(get_coordinate_by_lonlat(lon,lat))
-        # print (lon, lat, height)
-        new_node_list.append((lon, lat, height+50))
-    return new_node_list
+    if isinstance(nodelist, list):
+        new_node_list = []
+        final_height = -1
+        for (lon,lat) in nodelist:
+            height = im_DTM.getpixel(get_coordinate_by_lonlat(lon,lat))
+            # print (lon, lat, height)
+            if final_height > height or final_height < 0: final_height = height
+        for (lon, lat) in nodelist:
+            new_node_list.append((lon, lat, (final_height+50)*0.001))
+        return new_node_list
+    elif isinstance(nodelist, tuple):
+        height = im_DTM.getpixel(get_coordinate_by_lonlat(nodelist[0], nodelist[1]))
+        return (nodelist[0],nodelist[1], (height+50)*0.001)
 
 # print im.getpixel(get_coordinate_by_lonlat(lon,lat))

@@ -1,11 +1,17 @@
 from sympy import *
-import math
+import math,sys
 import numpy as np
+import json
 from AbusolutePositioning import earthfixed_to_longlat, longlat_to_earthfixed, building_to_WGS84
 
 def distance_between(p1,p2):
     d = (p1[0]-p2[0])*(p1[0]-p2[0]) + (p1[1]-p2[1])*(p1[1]-p2[1]) + (p1[2]-p2[2])*(p1[2]-p2[2])
     return math.sqrt(d)
+
+
+# first is a list, second is an object
+def diff(first, second):
+    return [item for item in first if item is not second]
 
 # compute symmetric position for the candidate
 # candidate_position: (x,y,z)
@@ -26,14 +32,30 @@ def symmetric_position_calc(candidate_position, building_edge):
     f2 = (start[1]-end[1])*(y-lat)+(start[0]-end[0])*(x-lon)
     solved_value = solve([f1,f2], [x, y])
     # print solved_value
-    if len(solved_value) == 2:
-        if solved_value[0][0] - candidate_position[0] < 0.000001:
-            return (solved_value[1][0],solved_value[1][1],hgt)
-        else:
-            return (solved_value[0][0],solved_value[0][1],hgt)
+    # print type(solved_value[0][0])
+    if not solved_value[0][0].is_Float:
+        f3 = (x-end[0])**2+(y-end[1])**2-(lon-end[0])**2-(lat-end[1])**2
+        solved_value = solve([f3, f2], [x, y])
+        # print type(solved_value[0][0])
+        i= 0
+        while not solved_value[0][0].is_Float:
+            i = i + 1
+            if i>5:
+                print("Error: cannot find symmetric position for the candidate (%f, %f, %f)" % candidate_position)
+                print 'the edge is ', start[0], ',', start[1], 'and ', end[0], ',', end[1]
+                sys.exit(1)
+            # extend the line
+            D = ((i+1)*end[0]-start[0], (i+1)*end[1]-start[1])
+            f4 = (x-D[0])**2+(y-D[1])**2-(lon-D[0])**2-(lat-D[1])**2
+            f5 = (start[1]-D[1])*(y-lat)+(start[0]-D[0])*(x-lon)
+            solved_value = solve([f4, f2], [x, y])
+
+
+    if abs(solved_value[0][0] - candidate_position[0]) < 0.000001:
+        return (solved_value[1][0],solved_value[1][1],hgt)
     else:
-        print("Error: cannot find symmetric position for the candidate (%f, %f)" % candidate_position)
-        sys.exit(1)
+        return (solved_value[0][0],solved_value[0][1],hgt)
+
 
 
 # compute the intersection point between the line and the surface
@@ -119,7 +141,7 @@ def test_intersection_ray_buildings(satellite_position, candidate_position, buil
             top_edge = (building['processed_top'][j],building['processed_top'][j+1])
             intersection = test_intersection_line_surface(satellite_position,candidate_position,
                                            bottom_edge, top_edge)
-            print intersection,bottom_edge
+            # print intersection,bottom_edge
             if intersection!=(0,0,0):
                 results[i] = 1
                 break
@@ -202,7 +224,8 @@ def multipath_error_calc(satellite_position, candidate_position, buildings_info)
             lonlat_edge = (building['nodes_top'][j], building['nodes_top'][j + 1])
 
             # construct a multipath if it exists
-            symmetric = longlat_to_earthfixed(symmetric_position_calc(candidate_position, lonlat_edge))
+            symmetric = longlat_to_earthfixed(symmetric_position_calc(earthfixed_to_longlat(candidate_position),
+                                                                      lonlat_edge))
             intersection = test_intersection_line_surface(satellite_position, symmetric, bottom_edge, top_edge)
             if intersection == (0,0,0):
                 continue
@@ -220,8 +243,15 @@ def multipath_error_calc(satellite_position, candidate_position, buildings_info)
                     path_valid = 0
                     break
             if path_valid:
+                multipath_is_block = test_intersection_ray_buildings(satellite_position, symmetric, diff(buildings_info, buildings_info[i]))
+                print multipath_is_block
+                if np.max(multipath_is_block) == 1:
+                    path_valid = 0
+
+            if path_valid:
                 error = distance_between(satellite_position, symmetric) - distance_between(satellite_position,candidate_position)
                 multipath_error.append(error)
+
     if multipath_error == []:
         return -1
     return np.min(multipath_error)
@@ -247,22 +277,24 @@ def hidden_surface_removal(candidate_position, lonlat_edge):
     else:
         return True
 
-buildings_info = [
-    {'processed_top':[(1.0,3.0,4.0), (1.0,1.0,4.0),(-1.0,1.0,4.0),(-1.0,3.0,4.0),(1.0,3.0,4.0)],
-     'processed_bottom': [(1.0,3.0,0.0), (1.0,1.0,0.0),(-1.0,1.0,0.0),(-1.0,3.0,0.0),(1.0,3.0,0.0)],
-     'nodes_top':[(1.0,3.0,4.0), (1.0,1.0,4.0),(-1.0,1.0,4.0),(-1.0,3.0,4.0),(1.0,3.0,4.0)],
-     'nodes_bottom': [(1.0,3.0,0.0), (1.0,1.0,0.0),(-1.0,1.0,0.0),(-1.0,3.0,0.0),(1.0,3.0,0.0)]
-     },
-    {
-        'processed_top': [(5.0,3.0,4.0), (5.0,1.0,4.0),(3.0,1.0,4.0),(3.0,3.0,4.0),(5.0,3.0,4.0)],
-        'processed_bottom':[(5.0,3.0,0.0), (5.0,1.0,0.0),(3.0,1.0,0.0),(3.0,3.0,0.0),(5.0,3.0,0.0)],
-        'nodes_top': [(5.0,3.0,4.0), (5.0,1.0,4.0),(3.0,1.0,4.0),(3.0,3.0,4.0),(5.0,3.0,4.0)],
-        'nodes_bottom':[(5.0,3.0,0.0), (5.0,1.0,0.0),(3.0,1.0,0.0),(3.0,3.0,0.0),(5.0,3.0,0.0)]
-    },
-]
-satellite = (-3.,2.,19)
-candidate = (2.,2.,0.)
-# print buildings_info
-print multipath_error_calc(satellite,candidate,buildings_info)
+
+####### an example to test multipath calculation
+# buildings_info = [
+#     {'processed_top':[(1.0,3.0,4.0), (1.0,1.0,4.0),(-1.0,1.0,4.0),(-1.0,3.0,4.0),(1.0,3.0,4.0)],
+#      'processed_bottom': [(1.0,3.0,0.0), (1.0,1.0,0.0),(-1.0,1.0,0.0),(-1.0,3.0,0.0),(1.0,3.0,0.0)],
+#      'nodes_top':[(1.0,3.0,4.0), (1.0,1.0,4.0),(-1.0,1.0,4.0),(-1.0,3.0,4.0),(1.0,3.0,4.0)],
+#      'nodes_bottom': [(1.0,3.0,0.0), (1.0,1.0,0.0),(-1.0,1.0,0.0),(-1.0,3.0,0.0),(1.0,3.0,0.0)]
+#      },
+#     {
+#         'processed_top': [(5.0,3.0,4.0), (5.0,1.0,4.0),(3.0,1.0,4.0),(3.0,3.0,4.0),(5.0,3.0,4.0)],
+#         'processed_bottom':[(5.0,3.0,0.0), (5.0,1.0,0.0),(3.0,1.0,0.0),(3.0,3.0,0.0),(5.0,3.0,0.0)],
+#         'nodes_top': [(5.0,3.0,4.0), (5.0,1.0,4.0),(3.0,1.0,4.0),(3.0,3.0,4.0),(5.0,3.0,4.0)],
+#         'nodes_bottom':[(5.0,3.0,0.0), (5.0,1.0,0.0),(3.0,1.0,0.0),(3.0,3.0,0.0),(5.0,3.0,0.0)]
+#     },
+# ]
+# satellite = (-3.,2.,5)
+# candidate = (2.,2.,0.)
+# # print buildings_info
+# print multipath_error_calc(satellite,candidate,buildings_info)
 
 # print test_intersection_ray_buildings((0.00,0.00,3.0),(3.0,3.0,0.00),buildings_info)

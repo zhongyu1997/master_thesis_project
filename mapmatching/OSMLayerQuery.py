@@ -1,6 +1,7 @@
 import osmapi, overpass
 import ReadDEMDTM
 import numpy as np
+import time
 
 meter2lat = 0.00001141
 meter2lon = 0.00000899
@@ -8,11 +9,13 @@ meter2lon = 0.00000899
 def query_point(lon, lat, gap): # gap: meters
     api = overpass.API()
     api2 = osmapi.OsmApi()
-    print lon - gap*meter2lon, lat - gap*meter2lat, lon + gap*meter2lon, lat + gap*meter2lat
+    # print lon - gap*meter2lon, lat - gap*meter2lat, lon + gap*meter2lon, lat + gap*meter2lat
     MapQuery = overpass.MapQuery(lat - gap*meter2lon, lon - gap*meter2lat,
                                  lat + gap*meter2lon, lon + gap*meter2lat) # lat-gap, lon-gap, lat+gap, lon+gap
     # MapQuery = overpass.MapQuery(-1.607979, 54.982289, -1.606181, 54.984571)
     response = api.get(MapQuery, responseformat='json')
+    # time.sleep(1.0)
+
     # response = api.get('way(50.746,7.154,50.748,7.157);(._;>;)',responseformat='json')
 
     # preprocess query result. Filter out buildings.
@@ -66,4 +69,4 @@ def tuple2list(tmp):
 # api = osmapi.OsmApi()
 # print(api.WayGet(187204004))
 
-query_point(-1.60708, 54.98343, 50)
+# query_point(-1.60708, 54.98343, 50)

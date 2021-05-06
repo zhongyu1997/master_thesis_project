@@ -9,13 +9,13 @@ import matplotlib.pyplot as plt
 gps_time = datetime.datetime(1980, 1, 6, 0, 0, 0)
 igs_folder = r'C:\Users\user\Documents\master_project_code\satellite_position'
 satellite_table_x = pandas.DataFrame(columns=['date-time','PG01','PG02','PG03','PG04','PG05','PG06','PG07','PG08','PG09','PG10',
-                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG20','PG21','PG22','PG23',
+                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG19','PG20','PG21','PG22','PG23',
                                             'PG24','PG25','PG26','PG27','PG28','PG29','PG30','PG31','PG32'])
 satellite_table_y = pandas.DataFrame(columns=['date-time','PG01','PG02','PG03','PG04','PG05','PG06','PG07','PG08','PG09','PG10',
-                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG20','PG21','PG22','PG23',
+                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG19','PG20','PG21','PG22','PG23',
                                             'PG24','PG25','PG26','PG27','PG28','PG29','PG30','PG31','PG32'])
 satellite_table_z = pandas.DataFrame(columns=['date-time','PG01','PG02','PG03','PG04','PG05','PG06','PG07','PG08','PG09','PG10',
-                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG20','PG21','PG22','PG23',
+                                            'PG11','PG12','PG13','PG14','PG15','PG16','PG17','PG18','PG19','PG20','PG21','PG22','PG23',
                                             'PG24','PG25','PG26','PG27','PG28','PG29','PG30','PG31','PG32'])
 
 def uk_time_to_gps_week(timestamp):
@@ -58,7 +58,7 @@ def read_igs_files(gps_start_time, gps_end_time):
             satellite_table_x = satellite_table_x.append(record_x, ignore_index=True)
             satellite_table_y = satellite_table_y.append(record_y, ignore_index=True)
             satellite_table_z = satellite_table_z.append(record_z, ignore_index=True)
-    print satellite_table_x.head()
+    # print satellite_table_x.head()
     satellite_table_x = satellite_table_x.set_index('date-time')
     satellite_table_y = satellite_table_y.set_index('date-time')
     satellite_table_z = satellite_table_z.set_index('date-time')
@@ -86,10 +86,11 @@ def lagrangian_intepolation(gps_time, order):
         # print table.head()
         result = numpy.array([0] * 32).reshape(-1,1).astype(float)
         for stamp in time_set:
+            test = table.loc[stamp]
             tmp_x = table.loc[stamp].values.reshape(-1,1).astype(float)
             tmp_result = tmp_x
             time = int(stamp.split('-')[1])
-            for stamp2 in set(time_set) - set([stamp]):
+            for stamp2 in set(time_set) - {stamp}:
                 time2 = int(stamp2.split('-')[1])
                 tmp_result = tmp_result * (seconds-time2)/(time-time2)
             result = result + tmp_result
@@ -108,9 +109,10 @@ def lagrangian_intepolation(gps_time, order):
 
 
 
-# timestamp = uk_time_to_gps_week('20210401181309')
-# print timestamp
+# timestamp = uk_time_to_gps_week('20210325155710')
+# # print timestamp
 # read_igs_files(timestamp, timestamp)
+# print lagrangian_intepolation(timestamp,9)
 #
 # ########################### verifying the accuracy ######################
 # order3 = lagrangian_intepolation(timestamp,4)
