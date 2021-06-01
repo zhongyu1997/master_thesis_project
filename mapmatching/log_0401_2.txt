@@ -1,0 +1,967 @@
+track size:135
+Number of segments: 7095
+C:\Users\user\Documents\master_project_code\result\network.shp
+graph size (excluding unconnected parts): 5087
+GPS0267
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0268
+GPS0269
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0270
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0271
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0272
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+GPS0273
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.010824369466718053, -1, -1, -1]
+the estimated position for this candidate is  [3667.85524591 -103.64978714 5199.58480431]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0258409287298
+the multipath errors for this candidate is  [-1, -1, 0.008506819078320405, -1, -1, -1]
+the estimated position for this candidate is  [3667.85370145 -103.65064534 5199.58641767]
+distance between hypothesis GPS point and measured GPS point is (km): 0.027334356769
+the multipath errors for this candidate is  [-1, -1, 0.010824369466718053, -1, -1, -1]
+the estimated position for this candidate is  [3667.85524591 -103.64978714 5199.58480431]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0258409287298
+GPS0274
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0275
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.005117686374433106, -1]
+the estimated position for this candidate is  [3667.85822622 -103.62520765 5199.58650296]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0314064779522
+GPS0276
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.0015164578071562573, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.89959106 -103.61703975 5199.55275391]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0243549146391
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.0056743412860669196, 0.001387801552482415]
+the estimated position for this candidate is  [3667.86917537 -103.61071496 5199.57518096]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0258884100464
+GPS0277
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.018045229917333927]
+the estimated position for this candidate is  [3667.91161317 -103.58832854 5199.53690469]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0422026600808
+the multipath errors for this candidate is  [-1, -1, -1, 0.018045229917333927]
+the estimated position for this candidate is  [3667.91161317 -103.58832854 5199.53690469]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0422026600808
+the multipath errors for this candidate is  [-1, -1, 0.007979306978086242, -1]
+the estimated position for this candidate is  [3667.8896399  -103.58216592 5199.56758843]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0233796251895
+the multipath errors for this candidate is  [-1, -1, 0.007979306978086242, -1]
+the estimated position for this candidate is  [3667.8896399  -103.58216592 5199.56758843]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0233796251895
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.008213556262489874, -1]
+the estimated position for this candidate is  [3667.88793477 -103.58646779 5199.56910719]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0218621516621
+the multipath errors for this candidate is  [-1, -1, -1, 0.001542298159620259]
+the estimated position for this candidate is  [3667.88551724 -103.59097209 5199.56331838]
+distance between hypothesis GPS point and measured GPS point is (km): 0.02539838016
+the multipath errors for this candidate is  [-1, -1, -1, 0.001542298159620259]
+the estimated position for this candidate is  [3667.88551724 -103.59097209 5199.56331838]
+distance between hypothesis GPS point and measured GPS point is (km): 0.02539838016
+the multipath errors for this candidate is  [-1, -1, -1, 0.0015332339426095132]
+the estimated position for this candidate is  [3667.88486349 -103.59205907 5199.56378902]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0254836581722
+GPS0278
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.0028336053910607006, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.91580978 -103.56914559 5199.54222797]
+distance between hypothesis GPS point and measured GPS point is (km): 0.019348932715
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.07229499661843874, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.8407469  -103.49873232 5199.6415576 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.127624096031
+the multipath errors for this candidate is  [0.07982474589152844, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.83259024 -103.49570902 5199.65249494]
+distance between hypothesis GPS point and measured GPS point is (km): 0.140746143526
+the multipath errors for this candidate is  [0.07229499661843874, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.8407469  -103.49873232 5199.6415576 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.127624096031
+GPS0279
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.07231097091425909, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.89226462 -103.53813094 5199.54977115]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0208192093596
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0280
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0282
+the multipath errors for this candidate is  [-1, -1, -1, 0.04944163246182143, -1, -1]
+the estimated position for this candidate is  [3667.91200628 -103.50707586 5199.54469979]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0178977231897
+the multipath errors for this candidate is  [-1, -1, -1, 0.022328629554976942, -1, -1]
+the estimated position for this candidate is  [3667.91391686 -103.5087462  5199.54225816]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0193273533524
+the multipath errors for this candidate is  [-1, -1, -1, 0.041884916776325554, -1, -1]
+the estimated position for this candidate is  [3667.90623619 -103.50336381 5199.54850923]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0169294649884
+the multipath errors for this candidate is  [-1, -1, -1, 0.019438906590949045, -1, -1]
+the estimated position for this candidate is  [3667.91504737 -103.50954294 5199.54132299]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0201989261128
+the multipath errors for this candidate is  [-1, -1, -1, 0.022328629554976942, -1, -1]
+the estimated position for this candidate is  [3667.91391686 -103.5087462  5199.54225816]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0193273533524
+the multipath errors for this candidate is  [-1, -1, -1, 0.019438906590949045, -1, -1]
+the estimated position for this candidate is  [3667.91504737 -103.50954294 5199.54132299]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0201989261128
+the multipath errors for this candidate is  [-1, -1, 0.019844180231302744, 0.03141616589346086, -1, -1]
+the estimated position for this candidate is  [3667.88804807 -103.49742509 5199.55838799]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0311621742617
+the multipath errors for this candidate is  [-1, -1, 0.012044179311487824, 0.01906768514891155, -1, -1]
+the estimated position for this candidate is  [3667.90108283 -103.50397052 5199.54943787]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0204084837046
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0283
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.06055071627997677, -1, -1]
+the estimated position for this candidate is  [3667.89915295 -103.49837171 5199.55407082]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0318443137214
+the multipath errors for this candidate is  [-1, -1, 0.019783713989454554, 0.03137021836664644, -1, -1]
+the estimated position for this candidate is  [3667.88815463 -103.49743233 5199.55830121]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0410855177853
+the multipath errors for this candidate is  [-1, -1, 0.011604256516875466, 0.018400415199721465, -1, -1]
+the estimated position for this candidate is  [3667.89831738 -103.50191653 5199.55167242]
+distance between hypothesis GPS point and measured GPS point is (km): 0.033506582398
+GPS0284
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0285
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0287
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.007035668953903951, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.94136349 -103.36660161 5199.51644549]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0204835470726
+GPS0288
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.004045010748086497, -1, -1, -1]
+the estimated position for this candidate is  [3667.95013239 -103.35537415 5199.51237528]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0135051491564
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0289
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0290
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, 0.00799567624926567, -1, -1, 0.004419140324898763]
+the estimated position for this candidate is  [3667.93268635 -103.36714151 5199.51987556]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0234267304505
+GPS0291
+GPS0292
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.004102705574041465, -1, -1, -1]
+the estimated position for this candidate is  [3667.8718866  -103.36730001 5199.56899667]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00632857065956
+GPS0294
+the multipath errors for this candidate is  [-1, 0.0007208428251033183, -1, -1]
+the estimated position for this candidate is  [3667.8395962  -103.35565452 5199.59662193]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0107356619902
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0295
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0296
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+GPS0297
+the multipath errors for this candidate is  [0.00400468645239016, 0.002174181048758328, -1]
+the estimated position for this candidate is  [3667.84202851 -103.30698773 5199.59062812]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0247950197403
+the multipath errors for this candidate is  [0.004063444688654272, 0.0022060848714318126, -1]
+the estimated position for this candidate is  [3667.83712041 -103.31358506 5199.59434164]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0190561548836
+the multipath errors for this candidate is  [0.004099615896848263, 0.0022257247255765833, -1]
+the estimated position for this candidate is  [3667.83404203 -103.31764458 5199.59654611]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0170291766909
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [0.00047011845526867546, -1, -1]
+the estimated position for this candidate is  [3667.81592535 -103.30633296 5199.6128719 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0104538459074
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+GPS0298
+the multipath errors for this candidate is  [-1, -1, 0.0039782512685633264, -1, -1, -1]
+the estimated position for this candidate is  [3667.84526297 -103.30318802 5199.59136323]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0177735455226
+the multipath errors for this candidate is  [-1, -1, 0.004029603529488668, 0.0022019369425834157, -1, -1]
+the estimated position for this candidate is  [3667.84168661 -103.30942641 5199.59397984]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0209751803033
+GPS0299
+the multipath errors for this candidate is  [0.05870067042633309, -1, 0.004804023261385737, 0.0031289673133869655, -0.0007945796787680592, -1]
+the estimated position for this candidate is  [3667.89944283 -103.28410514 5199.54385564]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0636747220265
+the multipath errors for this candidate is  [0.05928982567638741, -1, 0.005542208273254801, 0.003609763600252336, -0.0009166745912807528, -1]
+the estimated position for this candidate is  [3667.89970615 -103.28402715 5199.5433614 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0642057382414
+the multipath errors for this candidate is  [0.068963772013376, -1, 0.004789284561411478, 0.003119368771876907, -0.0007921418364276178, -1]
+the estimated position for this candidate is  [3667.90222876 -103.28742859 5199.54084087]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0676916088315
+GPS0300
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1]
+GPS0301
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0302
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+GPS0303
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+GPS0304
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0305
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0306
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0307
+GPS0309
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0311
+the multipath errors for this candidate is  [0.047788340103579685, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.06822352 -103.03627948 5199.40859796]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00454864211175
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0312
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.006709358502121177, -1, -1]
+the estimated position for this candidate is  [3668.06031959 -103.01244205 5199.4096436 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0123390089894
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.006709358502121177, -1, -1]
+the estimated position for this candidate is  [3668.06031959 -103.01244205 5199.4096436 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0123390089894
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.006709358502121177, -1, -1]
+the estimated position for this candidate is  [3668.06031959 -103.01244205 5199.4096436 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0123390089894
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.010618428907037014, -1]
+the estimated position for this candidate is  [3668.05219973 -103.00159272 5199.41453133]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00603996498421
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.0016047035642259289, 0.006724086666508811, -1, -1]
+the estimated position for this candidate is  [3668.05556362 -103.00360516 5199.41275627]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00492752152231
+GPS0313
+the multipath errors for this candidate is  [-1, -1, -1, 0.0015811592711543199, 0.006702564020088175, -1, -1]
+the estimated position for this candidate is  [3668.05556545 -103.00359081 5199.41276012]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0161097016587
+the multipath errors for this candidate is  [-1, -1, -1, 0.0015811592711543199, 0.006702564020088175, -1, -1]
+the estimated position for this candidate is  [3668.05556545 -103.00359081 5199.41276012]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0161097016587
+the multipath errors for this candidate is  [0.013026300883211661, -1, -1, 0.0016848396917339414, 0.006700429767079186, 0.010752432222943753, -1]
+the estimated position for this candidate is  [3668.03906248 -102.99427196 5199.42444607]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0108396059813
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.007336097001825692, 0.011044699069316266, 0.002234403567854315]
+the estimated position for this candidate is  [3668.04105139 -102.98587702 5199.42068901]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00855419737834
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.007336097001825692, 0.011044699069316266, 0.002234403567854315]
+the estimated position for this candidate is  [3668.04105139 -102.98587702 5199.42068901]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00855419737834
+GPS0314
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.007314325510378694, 0.011062677094741957, 0.002232543807622278]
+the estimated position for this candidate is  [3668.03695475 -102.98769744 5199.42474918]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0187068210868
+the multipath errors for this candidate is  [0.0017178391899506096, -1, -1, -1, 0.00281380003070808, -1]
+the estimated position for this candidate is  [3668.05340319 -102.9796036  5199.41407174]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0143309248531
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.01316630601286306, -1]
+the estimated position for this candidate is  [3668.03018112 -102.97239375 5199.43106297]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0174344940758
+GPS0315
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.0018564846286608372, -1, 0.002281216216942994, -1, -1, -1]
+the estimated position for this candidate is  [3668.06021751 -102.97738945 5199.40863374]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0196113287266
+the multipath errors for this candidate is  [-1, -1, -1, 0.011573737476282986, -1, -1]
+the estimated position for this candidate is  [3668.03516746 -102.97437557 5199.42818654]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0182857514905
+GPS0316
+the multipath errors for this candidate is  [0.02957002138646203, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.02206153 -102.96538312 5199.44083526]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00800846585851
+the multipath errors for this candidate is  [-1, -1, -1, 0.025986781402025372, -1, -1, -1]
+the estimated position for this candidate is  [3668.03477771 -102.95880231 5199.42402665]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0143716571893
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.024974162803118816, -1, -1]
+the estimated position for this candidate is  [3668.01889502 -102.95955746 5199.43822807]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00790717977522
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022346071567881154, -1, -1]
+the estimated position for this candidate is  [3668.01541075 -102.95952361 5199.4409562 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0121840396451
+GPS0317
+the multipath errors for this candidate is  [0.042167016323219286, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.01470802 -102.95994811 5199.44746115]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0106350399391
+the multipath errors for this candidate is  [-1, -1, -1, 0.025961055511288578, -1, -1, -1]
+the estimated position for this candidate is  [3668.03477305 -102.95878345 5199.42403813]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0232178301169
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022741933335055364, -1, -1]
+the estimated position for this candidate is  [3668.01596237 -102.95952813 5199.44052158]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00656257208858
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022331686657707905, -1, -1]
+the estimated position for this candidate is  [3668.01541931 -102.95952289 5199.44094974]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00685023483
+GPS0318
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022315678648737958, -1, -1]
+the estimated position for this candidate is  [3668.01542879 -102.95952204 5199.44094259]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0177654971705
+the multipath errors for this candidate is  [-1, -1, 0.012712558371276828, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.0112448  -102.95873898 5199.44179516]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0144776689147
+the multipath errors for this candidate is  [0.010234827095700894, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.98202061 -102.95356725 5199.4685511 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0291020371868
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.002914559929195093, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.98963246 -102.93837042 5199.46141713]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0214141612945
+GPS0319
+the multipath errors for this candidate is  [-1, -1, -1, 0.025901020264427643, -1, -1, -1]
+the estimated position for this candidate is  [3668.03476212 -102.95873951 5199.42406491]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0365934591073
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022298039802990388, -1, -1]
+the estimated position for this candidate is  [3668.01543917 -102.95952103 5199.44093475]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0205088311363
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.022298039802990388, -1, -1]
+the estimated position for this candidate is  [3668.01543917 -102.95952103 5199.44093475]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0205088311363
+the multipath errors for this candidate is  [0.03199357053381391, -1, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.98609818 -102.9363972  5199.46738569]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0340682787572
+the multipath errors for this candidate is  [0.027692206975189038, -1, -1, 0.0018042330666503403, -1, -1, -1]
+the estimated position for this candidate is  [3667.98600026 -102.9345895  5199.46688343]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0340767835258
+GPS0320
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0321
+GPS0322
+the multipath errors for this candidate is  [0.05811350301883067, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.97209806 -102.88987943 5199.46565219]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0462092384754
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1]
+GPS0323
+the multipath errors for this candidate is  [-1, 0.07173061359571875, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00185147 -102.90024144 5199.46104473]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0135755657388
+the multipath errors for this candidate is  [-1, 0.07173061359571875, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00185147 -102.90024144 5199.46104473]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0135755657388
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [0.005589962114754599, 0.05790997262738529, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00126825 -102.89918766 5199.45696846]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0104502082918
+the multipath errors for this candidate is  [0.005589962114754599, 0.05790997262738529, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00126825 -102.89918766 5199.45696846]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0104502082918
+the multipath errors for this candidate is  [-1, 0.05786146335594822, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00090517 -102.90045781 5199.46008667]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0133901723495
+the multipath errors for this candidate is  [-1, 0.05786146335594822, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3668.00090517 -102.90045781 5199.46008667]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0133901723495
+the multipath errors for this candidate is  [-1, 0.04770468858987442, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.99956051 -102.89912111 5199.46010393]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0135086598224
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.016501415935636032, -1]
+the estimated position for this candidate is  [3668.01241244 -102.90258921 5199.44386953]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0122136061671
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, 0.01783610933489399]
+the estimated position for this candidate is  [3667.99177286 -102.89455161 5199.45845322]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0175226019646
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.01738148023650865, -1]
+the estimated position for this candidate is  [3668.01377607 -102.90389388 5199.44262098]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0144193179146
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, 0.016788600743893767]
+the estimated position for this candidate is  [3667.9918267  -102.89380817 5199.45852334]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0174850813864
+GPS0324
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0325
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1]
+GPS0326
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.002249072742415592, -1]
+the estimated position for this candidate is  [3668.01336614 -102.80826698 5199.4452807 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0205904529018
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0327
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0328
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0329
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, 0.0017035876153386198]
+the estimated position for this candidate is  [3667.99054399 -102.75620862 5199.46186631]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0253874780492
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0330
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.002211391409218777, -1, -1]
+the estimated position for this candidate is  [3667.99378514 -102.75441777 5199.46031667]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0163886604512
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.002211391409218777, -1, -1]
+the estimated position for this candidate is  [3667.99378514 -102.75441777 5199.46031667]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0163886604512
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.0014351259924296755, -1]
+the estimated position for this candidate is  [3667.98034507 -102.75942477 5199.47060877]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0282266101499
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.0012581908122228924, -1, -1]
+the estimated position for this candidate is  [3667.99532388 -102.75377397 5199.45931957]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0156594934123
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.0014351259924296755, -1]
+the estimated position for this candidate is  [3667.98034507 -102.75942477 5199.47060877]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0282266101499
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0331
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, 0.002216780307207955, -1, -1, -1]
+the estimated position for this candidate is  [3667.99378033 -102.75438056 5199.46027334]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0146055473364
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0332
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, 0.0032829170559125487, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.97242168 -102.72408633 5199.47458028]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0240996378248
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.011454025563580217, -1]
+the estimated position for this candidate is  [3667.96816294 -102.72963301 5199.47769285]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0296273950062
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0333
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0334
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0339
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0340
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0341
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0342
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0343
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0345
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0346
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0347
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0348
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0349
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0358
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0366
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.0067296689994691405, -1, -1, -1]
+the estimated position for this candidate is  [3667.80992731 -102.75545235 5199.60430442]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0311670120553
+the multipath errors for this candidate is  [-1, -1, 0.003738601546501741, 0.006890183274663286, -1, -1]
+the estimated position for this candidate is  [3667.8033515  -102.7611554  5199.60919435]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0249127648008
+the multipath errors for this candidate is  [-1, -1, 0.003738601546501741, 0.006890183274663286, -1, -1]
+the estimated position for this candidate is  [3667.8033515  -102.7611554  5199.60919435]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0249127648008
+the multipath errors for this candidate is  [-1, -1, 0.0067296689994691405, -1, -1, -1]
+the estimated position for this candidate is  [3667.80992731 -102.75545235 5199.60430442]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0311670120553
+the multipath errors for this candidate is  [-1, -1, 0.0037633127249137033, 0.006935722230991814, 0.011943611621973105, -1]
+the estimated position for this candidate is  [3667.79928305 -102.76508988 5199.61383203]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0209196328112
+GPS0367
+the multipath errors for this candidate is  [-1, -1, 0.0037384825118351728, 0.006861556314106565, -1, -1, -1]
+the estimated position for this candidate is  [3667.80344357 -102.7619581  5199.61014472]
+distance between hypothesis GPS point and measured GPS point is (km): 0.028701070475
+the multipath errors for this candidate is  [-1, -1, 0.0037384825118351728, 0.006861556314106565, -1, -1, -1]
+the estimated position for this candidate is  [3667.80344357 -102.7619581  5199.61014472]
+distance between hypothesis GPS point and measured GPS point is (km): 0.028701070475
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.012824210032704286, -1]
+the estimated position for this candidate is  [3667.77833271 -102.74965626 5199.63153906]
+distance between hypothesis GPS point and measured GPS point is (km): 0.00753773838602
+GPS0368
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.010972426269290736, -1, -1, -1]
+the estimated position for this candidate is  [3667.76428728 -102.73985181 5199.64166214]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0108812481983
+the multipath errors for this candidate is  [-1, -1, 0.010972426269290736, -1, -1, -1]
+the estimated position for this candidate is  [3667.76428728 -102.73985181 5199.64166214]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0108812481983
+GPS0369
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, 0.010995057145919418, -1, -1, -1]
+the estimated position for this candidate is  [3667.76428109 -102.73984318 5199.64166221]
+distance between hypothesis GPS point and measured GPS point is (km): 0.02825366653
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.012993055021070177, -1]
+the estimated position for this candidate is  [3667.7567996  -102.74436238 5199.6538964 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0269083254983
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.008286046086141141, -1]
+the estimated position for this candidate is  [3667.74333386 -102.73394608 5199.6645648 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0298354211007
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.008286046086141141, -1]
+the estimated position for this candidate is  [3667.74333386 -102.73394608 5199.6645648 ]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0298354211007
+GPS0372
+the multipath errors for this candidate is  [-1, -1, -1, -1, 0.023715254093986005, -1]
+the estimated position for this candidate is  [3667.72080025 -102.70359872 5199.68169402]
+distance between hypothesis GPS point and measured GPS point is (km): 0.024809024788
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1]
+GPS0375
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0376
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0377
+GPS0380
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+GPS0396
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, 0.0028512586977740284, 0.002514998628612375, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.5135036  -102.6582987  5199.84467928]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0145964215108
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, 0.026470280150533654, -1, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.48045516 -102.66113178 5199.86841645]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0401277018711
+GPS0399
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, 0.0241045545990346, -1]
+the estimated position for this candidate is  [3667.47286279 -102.55074092 5199.87353309]
+distance between hypothesis GPS point and measured GPS point is (km): 0.0430490821688
+GPS0400
+the multipath errors for this candidate is  [-1, -1, 0.005785027296951739, -1, -1, -1, -1]
+the estimated position for this candidate is  [3667.50783724 -102.53414735 5199.84581661]
+distance between hypothesis GPS point and measured GPS point is (km): 0.020515305098
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+the multipath errors for this candidate is  [-1, -1, -1, -1, -1, -1, -1]
+--- Viterbi forward: 692.904999971 seconds ---
+--- Viterbi backtracking: 0.00100016593933 seconds ---
+path length before cleaning :317
+--- Path cleaning: 0.0 seconds ---
+final length: 169
+The path for points [-1.61965 54.97062 -1.61951 54.9706 -1.61937 54.97058 -1.6192 54.97054 -1.61909 54.97052 -1.61912 54.97058 -1.61888 54.97051 -1.61876 54.97048 -1.61853 54.97044 -1.6184 54.97042 -1.61814 54.97035 -1.61782 54.97028 -1.61741 54.9702 -1.61722 54.97019 -1.61704 54.97016 -1.61664 54.9701 -1.61616 54.97006 -1.616 54.97 -1.61542 54.9699 -1.61513 54.96982 -1.61476 54.96984 -1.6143 54.9698 -1.6142 54.96975 -1.61394 54.96993 -1.61431 54.96991 -1.614 54.9702 -1.61421 54.97057 -1.61432 54.97043 -1.61414 54.97096 -1.61395 54.97098 -1.61392 54.97117 -1.61339 54.97109 -1.61333 54.97074 -1.61303 54.97078 -1.61233 54.97027 -1.61167 54.9698 -1.61187 54.96985 -1.6115 54.96941 -1.61148 54.96937 -1.61136 54.96924 -1.61127 54.96907 -1.61066 54.96875 -1.61047 54.96879 -1.61014 54.96877 -1.60993 54.96879 -1.60895 54.96832 -1.60851 54.96846 -1.60832 54.96854 -1.60801 54.96858 -1.60795 54.96854 -1.60787 54.96879 -1.60775 54.96887 -1.60769 54.96903 -1.60754 54.96895 -1.60771 54.96917 -1.60652 54.96921 -1.60658 54.96903 -1.60682 54.96902 -1.60618 54.96917 -1.60622 54.96871 -1.60562 54.9688 -1.60539 54.96889 -1.60517 54.96892 -1.60486 54.96903 -1.60468 54.96913 -1.60443 54.96917 -1.6042 54.96922 -1.60385 54.96936 -1.60368 54.96942 -1.60371 54.96953 -1.60345 54.96956 -1.6034 54.96966 -1.60314 54.96975 -1.60294 54.96984 -1.60279 54.9699 -1.60261 54.96996 -1.60246 54.97001 -1.6023 54.97007 -1.60216 54.97013 -1.60198 54.9702 -1.6019 54.97029 -1.60186 54.97036 -1.60188 54.97049 -1.60195 54.97059 -1.60207 54.97065 -1.60227 54.9707 -1.60244 54.97073 -1.60273 54.9708 -1.60289 54.97085 -1.60305 54.97084 -1.60322 54.97089 -1.60342 54.97094 -1.60358 54.97098 -1.60371 54.971 -1.60391 54.97105 -1.60409 54.97109 -1.60424 54.97112 -1.60452 54.97113 -1.60487 54.9714 -1.6047 54.97144 -1.60486 54.97149 -1.60466 54.9716 -1.60451 54.97173 -1.60428 54.97189 -1.60465 54.97205 -1.60452 54.97215 -1.6039 54.97214 -1.60369 54.97227 -1.60348 54.9724 -1.60346 54.97259 -1.60356 54.97267 -1.60309 54.97269 -1.60347 54.97296 -1.60347 54.97309 -1.60358 54.9732 -1.6036 54.97335 -1.60364 54.97349 -1.60367 54.97361 -1.60361 54.97367 -1.60353 54.97377 -1.60349 54.9739 -1.60341 54.97402 -1.60346 54.97412 -1.60347 54.97423 -1.60342 54.97427 -1.60331 54.97436 -1.60322 54.97442 -1.60322 54.97446 -1.60345 54.97461 -1.60346 54.97471 -1.60336 54.97476 -1.60328 54.97477 -1.60283 54.9747 -1.6016 54.97485 -1.60144 54.97487] is: 
+[5770 5569 5486 5704 5705 5704 5359 5145 5145 5146 5231 5076 5029 5009 4973 4970 4852 5225 4818 4755 4728 4793 5357 4794 4773 4773 4794 5357 6161 6251 6162 6214 6020 5936 5712 5479 5307 5223 5070 5059 5059 4833 4801 4363 4288 4417 4273 4229 4116 4091 4056 3933 3934 3970 3971 3899 3870 3750 3651 3580 3581 3541 3543 3354 3274 3267 3267 3274 3304 3613 3747 3748 3935 4099 4351 4351 4430 4455 4466 4487 4488 4481 4447 4438 4438 4437 4437 4438 4519 4519 4519 4520 4032 4049 4107 4206 4285 4573 4358 4470 4566 4567 4855 5033 4922 5421 5497 5498 5498 5554 5556 5660 5661 5649 5339 5535 5688 5743 5834 5849 6024 6225 6224 6186 6224 6347 6383 6420 6518 7121 7348 7526 7527 6983 7527 7526 7348 7264 7347 7526 7543 8079 7630 7935 7630 8079 8078 8163 8322 8401 8726 8732 8735 8739 8738 8611 8832 8844 8845 8883 9008 9150 9181 9149 9726 9754 10183 10219 10274] with highest probability of 1.0
+"id" IN (5770, 5569, 5486, 5704, 5705, 5359, 5145, 5146, 5231, 5076, 5029, 5009, 4973, 4970, 4852, 5225, 4818, 4755, 4728, 4793, 5357, 4794, 4773, 6161, 6251, 6162, 6214, 6020, 5936, 5712, 5479, 5307, 5223, 5070, 5059, 4833, 4801, 4363, 4288, 4417, 4273, 4229, 4116, 4091, 4056, 3933, 3934, 3970, 3971, 3899, 3870, 3750, 3651, 3580, 3581, 3541, 3543, 3354, 3274, 3267, 3304, 3613, 3747, 3748, 3935, 4099, 4351, 4430, 4455, 4466, 4487, 4488, 4481, 4447, 4438, 4437, 4519, 4520, 4032, 4049, 4107, 4206, 4285, 4573, 4358, 4470, 4566, 4567, 4855, 5033, 4922, 5421, 5497, 5498, 5554, 5556, 5660, 5661, 5649, 5339, 5535, 5688, 5743, 5834, 5849, 6024, 6225, 6224, 6186, 6347, 6383, 6420, 6518, 7121, 7348, 7526, 7527, 6983, 7264, 7347, 7543, 8079, 7630, 7935, 8078, 8163, 8322, 8401, 8726, 8732, 8735, 8739, 8738, 8611, 8832, 8844, 8845, 8883, 9008, 9150, 9181, 9149, 9726, 9754, 10183, 10219, 10274)
+--- export: 0.269000053406 seconds ---
+track size:135
+Number of segments: 7095
+C:\Users\user\Documents\master_project_code\result\network.shp
+graph size (excluding unconnected parts): 5087
+--- Viterbi forward: 361.79399991 seconds ---
+--- Viterbi backtracking: 0.000999927520752 seconds ---
+path length before cleaning :313
+--- Path cleaning: 0.0 seconds ---
+final length: 165
+The path for points [-1.61965 54.97062 -1.61951 54.9706 -1.61937 54.97058 -1.6192 54.97054 -1.61909 54.97052 -1.61912 54.97058 -1.61888 54.97051 -1.61876 54.97048 -1.61853 54.97044 -1.6184 54.97042 -1.61814 54.97035 -1.61782 54.97028 -1.61741 54.9702 -1.61722 54.97019 -1.61704 54.97016 -1.61664 54.9701 -1.61616 54.97006 -1.616 54.97 -1.61542 54.9699 -1.61513 54.96982 -1.61476 54.96984 -1.6143 54.9698 -1.6142 54.96975 -1.61394 54.96993 -1.61431 54.96991 -1.614 54.9702 -1.61421 54.97057 -1.61432 54.97043 -1.61414 54.97096 -1.61395 54.97098 -1.61392 54.97117 -1.61339 54.97109 -1.61333 54.97074 -1.61303 54.97078 -1.61233 54.97027 -1.61167 54.9698 -1.61187 54.96985 -1.6115 54.96941 -1.61148 54.96937 -1.61136 54.96924 -1.61127 54.96907 -1.61066 54.96875 -1.61047 54.96879 -1.61014 54.96877 -1.60993 54.96879 -1.60895 54.96832 -1.60851 54.96846 -1.60832 54.96854 -1.60801 54.96858 -1.60795 54.96854 -1.60787 54.96879 -1.60775 54.96887 -1.60769 54.96903 -1.60754 54.96895 -1.60771 54.96917 -1.60652 54.96921 -1.60658 54.96903 -1.60682 54.96902 -1.60618 54.96917 -1.60622 54.96871 -1.60562 54.9688 -1.60539 54.96889 -1.60517 54.96892 -1.60486 54.96903 -1.60468 54.96913 -1.60443 54.96917 -1.6042 54.96922 -1.60385 54.96936 -1.60368 54.96942 -1.60371 54.96953 -1.60345 54.96956 -1.6034 54.96966 -1.60314 54.96975 -1.60294 54.96984 -1.60279 54.9699 -1.60261 54.96996 -1.60246 54.97001 -1.6023 54.97007 -1.60216 54.97013 -1.60198 54.9702 -1.6019 54.97029 -1.60186 54.97036 -1.60188 54.97049 -1.60195 54.97059 -1.60207 54.97065 -1.60227 54.9707 -1.60244 54.97073 -1.60273 54.9708 -1.60289 54.97085 -1.60305 54.97084 -1.60322 54.97089 -1.60342 54.97094 -1.60358 54.97098 -1.60371 54.971 -1.60391 54.97105 -1.60409 54.97109 -1.60424 54.97112 -1.60452 54.97113 -1.60487 54.9714 -1.6047 54.97144 -1.60486 54.97149 -1.60466 54.9716 -1.60451 54.97173 -1.60428 54.97189 -1.60465 54.97205 -1.60452 54.97215 -1.6039 54.97214 -1.60369 54.97227 -1.60348 54.9724 -1.60346 54.97259 -1.60356 54.97267 -1.60309 54.97269 -1.60347 54.97296 -1.60347 54.97309 -1.60358 54.9732 -1.6036 54.97335 -1.60364 54.97349 -1.60367 54.97361 -1.60361 54.97367 -1.60353 54.97377 -1.60349 54.9739 -1.60341 54.97402 -1.60346 54.97412 -1.60347 54.97423 -1.60342 54.97427 -1.60331 54.97436 -1.60322 54.97442 -1.60322 54.97446 -1.60345 54.97461 -1.60346 54.97471 -1.60336 54.97476 -1.60328 54.97477 -1.60283 54.9747 -1.6016 54.97485 -1.60144 54.97487] is: 
+[5770 5569 5486 5704 5705 5622 5366 5231 5076 5029 5720 5721 5662 4973 4970 4852 5225 4818 4755 4728 4793 5357 4794 4773 4810 4811 4810 4773 4794 5357 6161 6251 6162 6214 6020 5936 5712 5479 5307 5223 5070 5059 5059 4833 4801 4363 4288 4417 4273 4229 4116 4091 4056 3933 3934 3970 3971 3899 3870 3750 3651 3580 3581 3541 3612 3747 3935 4099 4351 4351 4430 4455 4466 4487 4488 4481 4447 4438 4306 4519 4520 3997 3997 4520 4032 4049 4107 4206 4285 4573 4358 4470 4566 4567 4855 5033 4922 5421 5497 5498 5498 5554 5556 5660 5661 5649 5339 5535 5688 5743 5834 5849 6024 6225 6224 6186 6224 6347 6383 6420 6518 7121 7348 7526 7527 6983 7527 7526 7348 7264 7347 7526 7543 8079 7630 7935 7630 8079 8078 8163 8322 8401 8726 8732 8735 8739 8738 8611 8832 8844 8845 8883 9008 9150 9181 9149 9726 9754 10183 10219 10274 10471 10493 10498 10383] with highest probability of 1.0
+"id" IN (5770, 5569, 5486, 5704, 5705, 5622, 5366, 5231, 5076, 5029, 5720, 5721, 5662, 4973, 4970, 4852, 5225, 4818, 4755, 4728, 4793, 5357, 4794, 4773, 4810, 4811, 6161, 6251, 6162, 6214, 6020, 5936, 5712, 5479, 5307, 5223, 5070, 5059, 4833, 4801, 4363, 4288, 4417, 4273, 4229, 4116, 4091, 4056, 3933, 3934, 3970, 3971, 3899, 3870, 3750, 3651, 3580, 3581, 3541, 3612, 3747, 3935, 4099, 4351, 4430, 4455, 4466, 4487, 4488, 4481, 4447, 4438, 4306, 4519, 4520, 3997, 4032, 4049, 4107, 4206, 4285, 4573, 4358, 4470, 4566, 4567, 4855, 5033, 4922, 5421, 5497, 5498, 5554, 5556, 5660, 5661, 5649, 5339, 5535, 5688, 5743, 5834, 5849, 6024, 6225, 6224, 6186, 6347, 6383, 6420, 6518, 7121, 7348, 7526, 7527, 6983, 7264, 7347, 7543, 8079, 7630, 7935, 8078, 8163, 8322, 8401, 8726, 8732, 8735, 8739, 8738, 8611, 8832, 8844, 8845, 8883, 9008, 9150, 9181, 9149, 9726, 9754, 10183, 10219, 10274, 10471, 10493, 10498, 10383)
+--- export: 0.210999965668 seconds ---

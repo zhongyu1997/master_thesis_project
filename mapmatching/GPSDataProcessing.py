@@ -15,9 +15,14 @@ def lambda_add_date(x):
     if 16 <= ind <= 181:
         return '20210325'+ time
     if 182 <= ind <= 400:
+        time = str(int(time[0:2]) - 1) + time[2:]
         return '20210401' + time
     if 401 <= ind <= 541:
+        time = str(int(time[0:2]) - 1) + time[2:]
         return '20210405' + time
+    if ind > 541:
+        time = str(int(time[0:2]) - 1) + time[2:]
+        return '20210407' + time
     return time
 
 def read_position(path):
@@ -158,15 +163,15 @@ def to_shp(path, content, signal_table):
 def gps_to_shp(position_path, time_path = '', rawdata_list = '', output = ''):
     content = read_position(position_path)
     content = read_time(time_path, content)
-    content, signal_table = read_signal_num(rawdata_list[0:3], content)
+    content, signal_table = read_signal_num(rawdata_list, content)
     to_shp(output, content, signal_table)
 
 
 
-position_path = DataPath.GPS_position_data_path
-time_path = DataPath.GPS_time_data_path
+position_path = DataPath.GPS_position_data_path_0407
+time_path = DataPath.GPS_time_data_path_0407
 
 rawdata_list = DataPath.GPS_raw_data_path
-output = r'C:\Users\user\Documents\master_project_code\result\test2.shp'
+output = r'C:\Users\user\Documents\master_project_code\result\trajectories_whole.shp'
 gps_to_shp(position_path,time_path, rawdata_list, output)
 

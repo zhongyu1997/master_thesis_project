@@ -1,4 +1,3 @@
-from mapmatcher import mapmatcher
 import arcpy
 
 try:

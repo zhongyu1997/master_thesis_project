@@ -1,17 +1,84 @@
 from sympy import *
 import math,sys
 import numpy as np
+import arcpy
 import json
 from AbusolutePositioning import earthfixed_to_longlat, longlat_to_earthfixed, building_to_WGS84
 
-def distance_between(p1,p2):
-    d = (p1[0]-p2[0])*(p1[0]-p2[0]) + (p1[1]-p2[1])*(p1[1]-p2[1]) + (p1[2]-p2[2])*(p1[2]-p2[2])
-    return math.sqrt(d)
 
+# point: (lon, lat)
+# seg: polyline geometry
+def get_points_along_polyline(point, seg):
+    candidates = []
+
+    # get the closet point on the seg to the given point
+    mindist = 10.
+    nextIndex = -1
+    minIndex = -1
+    json_info = json.loads(seg.JSON)['paths'][0]
+    for coor,i in zip(json_info, range(len(json_info))):
+        tmp_dist = distance_between(point, coor)
+        if tmp_dist < mindist:
+            mindist = tmp_dist
+            minIndex = i
+    if minIndex == 0 or minIndex == len(json_info)-1:
+        nextIndex = 1 if minIndex == 0 else len(json_info)-2
+        dist, pedal = distance_to_line(point, (json_info[minIndex], json_info[nextIndex]), mindist)
+        # pedal = json_info[minIndex] if dist == -1 else pedal
+        candidates.append(pedal)
+    elif len(json_info) > 2:
+        dist1, pedal1 = distance_to_line(point, (json_info[minIndex], json_info[minIndex-1]), mindist)
+        dist2, pedal2 = distance_to_line(point, (json_info[minIndex], json_info[minIndex+1]), mindist)
+        if dist1 < dist2:
+            candidates.append(pedal1)
+        else:
+            candidates.append(pedal2)
+    else:
+        print 'Error occurred when trying to get candidates along segments.'
+        sys.exit(1)
+    return candidates
+
+
+
+def distance_to_line(p,l, mindist):
+    start, end = l
+    A = end[1] - start[1]
+    B = start[0] - end[0]
+    C = end[0]*start[1] - start[0]* end[1]
+    dist = (A * p[0] + B * p[1] + C) / math.sqrt(A * A + B * B)
+    x = (B *B * p[0] - A * B * p[1] - A * C) / (A * A + B * B)
+    y = ( - A *B * p[0] + A * A * p[1] - B * C) / (A * A + B * B)
+    big,small = binary_big(start[0],end[0])
+    if small < x < big :
+        return dist,(x,y)
+    else:
+        return mindist, start
+
+
+
+def distance_between(p1,p2):
+    if len(p1) == 3:
+        d = (p1[0]-p2[0])*(p1[0]-p2[0]) + (p1[1]-p2[1])*(p1[1]-p2[1]) + (p1[2]-p2[2])*(p1[2]-p2[2])
+        return math.sqrt(d)
+    elif len(p1) == 2:
+        d = (p1[0] - p2[0]) * (p1[0] - p2[0]) + (p1[1] - p2[1]) * (p1[1] - p2[1])
+        return math.sqrt(d)
 
 # first is a list, second is an object
 def diff(first, second):
     return [item for item in first if item is not second]
+
+
+def symmetric_position_calc_2(candidate_position, building_edge):
+    (lon, lat, hgt) = candidate_position
+    (start, end) = building_edge
+    A = end[1] - start[1]
+    B = start[0] - end[0]
+    C = end[0] * start[1] - start[0] * end[1]
+    x = (B * B * lon - A * B * lat - A * C) / (A * A + B * B)
+    y = (- A * B * lon + A * A * lat - B * C) / (A * A + B * B)
+    p = (x-lon+x, y-lat+y, hgt)
+    return p
 
 # compute symmetric position for the candidate
 # candidate_position: (x,y,z)
@@ -47,7 +114,7 @@ def symmetric_position_calc(candidate_position, building_edge):
             # extend the line
             D = ((i+1)*end[0]-start[0], (i+1)*end[1]-start[1])
             f4 = (x-D[0])**2+(y-D[1])**2-(lon-D[0])**2-(lat-D[1])**2
-            f5 = (start[1]-D[1])*(y-lat)+(start[0]-D[0])*(x-lon)
+            # f5 = (start[1]-D[1])*(y-lat)+(start[0]-D[0])*(x-lon)
             solved_value = solve([f4, f2], [x, y])
 
 
@@ -196,7 +263,7 @@ def inside_polygon(p0, p1, p2, p3, p4, normal):
 
 def multipath_error_calc(satellite_position, candidate_position, buildings_info):
     is_blocked = test_intersection_ray_buildings(satellite_position,candidate_position,buildings_info)
-    print 'Test if the signal is blocked:', is_blocked
+    # print 'Test if the signal is blocked:', is_blocked
     if np.max(is_blocked) == 0:
         return -1
     multipath_error = []
@@ -224,7 +291,9 @@ def multipath_error_calc(satellite_position, candidate_position, buildings_info)
             lonlat_edge = (building['nodes_top'][j], building['nodes_top'][j + 1])
 
             # construct a multipath if it exists
-            symmetric = longlat_to_earthfixed(symmetric_position_calc(earthfixed_to_longlat(candidate_position),
+            # symmetric = longlat_to_earthfixed(symmetric_position_calc(earthfixed_to_longlat(candidate_position),
+            #                                                           lonlat_edge))
+            symmetric = longlat_to_earthfixed(symmetric_position_calc_2(earthfixed_to_longlat(candidate_position),
                                                                       lonlat_edge))
             intersection = test_intersection_line_surface(satellite_position, symmetric, bottom_edge, top_edge)
             if intersection == (0,0,0):
@@ -244,7 +313,7 @@ def multipath_error_calc(satellite_position, candidate_position, buildings_info)
                     break
             if path_valid:
                 multipath_is_block = test_intersection_ray_buildings(satellite_position, symmetric, diff(buildings_info, buildings_info[i]))
-                print multipath_is_block
+                # print multipath_is_block
                 if np.max(multipath_is_block) == 1:
                     path_valid = 0
 

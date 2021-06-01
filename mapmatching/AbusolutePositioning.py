@@ -7,8 +7,9 @@ b = 6356.75231424518
 ### psudeorange_and_satellite_positions should be a n*4 matrix.
 ### The first coloumn should be the hypothesized psudeorange.
 ### The rest coloumns are the X, Y, Z coordinates under the earth-fix coordinate system
-def absolute_positioning(psudeorange_and_satellite_positions):
-    X = np.array([100,0,0])
+def absolute_positioning(psudeorange_and_satellite_positions, candidate):
+    X = np.array([0.,0.,0.])
+    X[0],X[1],X[2] = candidate  # use candidate to provide a similar position
     delta_x  = np.array([200.0,1.0,1.0])
     while not np.all(abs(delta_x) < 1):
         # construct matrix A and L
@@ -37,8 +38,8 @@ def absolute_positioning(psudeorange_and_satellite_positions):
         X_bar = np.matmul(X_bar, np.matmul(np.transpose(A), L))
         delta_x = X_bar.flatten()
         X = X + delta_x
-        print 'X is:', X
-        print 'delta x is:', delta_x
+        # print 'X is:', X
+        # print 'delta x is:', delta_x
     return X
 
 
